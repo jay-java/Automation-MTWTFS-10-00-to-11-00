@@ -13,6 +13,5 @@ public class P011_ClassObject {
 		ABC a = new ABC(); 
 		a.call();
 		a.run();
-		
 	}
 }
