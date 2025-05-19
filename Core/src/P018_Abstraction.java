@@ -27,7 +27,7 @@ class JAVA extends RBI{
 	}
 	
 }
-public class P0018_Abstraction {
+public class P018_Abstraction {
 	public static void main(String[] args) {
 		SBI s = new SBI();
 		s.HL();
