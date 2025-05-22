@@ -14,7 +14,7 @@ interface inter3 extends inter2{
 class InterCall implements inter1,inter3{
 
 	@Override
-	public void call() {
+	public void call() {                                                                                                                             
 		// TODO Auto-generated method stub
 		System.out.println("call in intercall class");
 	}
