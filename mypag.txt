@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+</head>
+<body>
+    <!-- tag -->
+    <h1>hello</h1>
+    <h2>hello</h2>
+    <h3>hello</h3>
+    <h4>hello</h4>
+    <h5>hello</h5>
+    <h6>hello</h6>
+
+    <form>
+        <input type="text" placeholder="enter name">
+        <input type="text" placeholder="enter contact">
+        <input type="text" placeholder="enter address">
+        <input type="date">
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+    </form>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <td style="color: red;">Id</td>
+                <td>Name</td>
+                <td>Contact</td>
+                <td>Addres</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                 <td style="color: blue;">1</td>
+                <td>Name1</td>
+                <td>Contact</td>
+                <td>Addres</td>
+            </tr>
+            <tr>
+                 <td>2</td>
+                <td>Name2</td>
+                <td>Contact</td>
+                <td>Addres</td>
+            </tr>
+            <tr>
+                 <td>3</td>
+                <td>Name3</td>
+                <td>Contact</td>
+                <td>Addres</td>
+            </tr>
+            <tr>
+                 <td>4</td>
+                <td>Name4</td>
+                <td>Contact</td>
+                <td>Addres</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
