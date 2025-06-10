@@ -10,7 +10,7 @@ public class P001_OpenBrowser {
 	public static void main(String[] args) throws InterruptedException {
 		
 		//1.Chrome
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
