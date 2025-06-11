@@ -21,6 +21,10 @@ public class P001_OpenBrowser {
 		WebElement passwordEle = driver.findElement(By.id("pass"));
 		passwordEle.sendKeys("selenium@123");
 		
+		System.out.println(emailEle.getAttribute("type"));
+		System.out.println(emailEle.getAttribute("class"));
+		System.out.println(emailEle.getAttribute("data-testid"));
+		
 		WebElement loginBTN = driver.findElement(By.name("login"));
 //		loginBTN.click();
 //		driver.close();
